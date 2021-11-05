@@ -1,1 +1,1 @@
-i use Arch, btw.
+i'm going to use Arch, btw.
