@@ -1,4 +1,5 @@
 set bg=dark
+colorscheme gruvbox
 
 " set tab 4 each
 set tabstop=4 " set ts=4 also works
