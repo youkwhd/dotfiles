@@ -20,16 +20,16 @@ esac
 ###########
 
 # Normal Bash
-export PS1='\[\e[1;36m\][\u@\H] \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]' 
+export PS1='\[\e[1;31m\][\[\e[1;32m\]\u\[\e[1;33m\]@\[\e[1;36m\]\H \[\e[1;33m\]\w\[\e[1;31m\]]\[\e[1;37m\]\$ \[\e[0m\]' 
 
 # Alpine Linux / ash
-# export PS1='\[\e[1;38;5;244m\]$(date +%H:%M:%S) \[\e[1;36m\]\u@\H \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]'
+#export PS1='\[\e[1;38;5;244m\]$(date +%H:%M:%S) \[\e[1;36m\]\u@\H \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]'
 
 # Termux (without user@host)
-# export PS1='\[\e[1;38;5;244m\]\t \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]'
+#export PS1='\[\e[1;38;5;244m\]\t \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]'
 
 # Minimal without path to working directory (~ $)
-# export PS1='\[\e[1;33m\]\W \[\e[1;36m\]\$ \[\e[0m\]'
+#export PS1='\[\e[1;33m\]\W \[\e[1;36m\]\$ \[\e[0m\]'
 
 ##################################
 ## ls, exa & more colored stuff ##
