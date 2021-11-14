@@ -186,11 +186,11 @@ set $gray #a89984
 set $darkgray #1d2021
 
 # green gruvbox
-# class                 border|backgr|text|indicator|child_bord
-client.focused          $green $green $darkgray $purple $darkg
-client.focused_inactive $darkgray $darkgray $yellow $purple $d
-client.unfocused        $darkgray $darkgray $yellow $purple $d
-client.urgent           $red $red $white $red $red
+# class                 border      backgr      text        indicator       child_bord
+client.focused          $green      $green      $darkgray   $purple         $darkgray
+client.focused_inactive $darkgray   $darkgray   $yellow     $purple         $darkgray
+client.unfocused        $darkgray   $darkgray   $yellow     $purple         $darkgray
+client.urgent           $red        $red        $white      $red            $red
 
 hide_edge_borders both
 
@@ -219,3 +219,4 @@ bar {
             urgent_workspace     $red $red $bg
         }
 }
+
