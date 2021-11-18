@@ -147,6 +147,15 @@ alias pw='bash -c '"'"'echo `tr -dc $([ $# -gt 1 ] && echo $2 || echo "A-Za-z0-9
 # View pressure stall information
 alias pressure="grep -n '[^ ]*=' /proc/pressure/*"
 
+
+###########################
+##     i3wm utilities    ##
+###########################
+
+# TODO: make the max value to be 1
+alias bright="xrandr --output eDP-1-1 --brightness $1"
+
+
 ###########################
 ## Ubuntu-specific stuff ##
 ###########################
