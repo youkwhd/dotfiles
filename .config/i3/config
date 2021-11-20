@@ -219,4 +219,10 @@ bar {
             active_workspace     $darkgray $darkgray $yellow
             urgent_workspace     $red $red $bg
         }
-} 
+}
+
+for_window [class="^.*"] border pixel 0
+
+gaps inner 10
+gaps outer 5
+
