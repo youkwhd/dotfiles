@@ -1,9 +1,7 @@
 set bg=dark
-colorscheme gruvbox
 
-" set tab 4 each
-set tabstop=4 " set ts=4 also works
-set shiftwidth=4
+" tabs config
+set tabstop=4
 set softtabstop=4
 set expandtab
 set smartindent
