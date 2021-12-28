@@ -1,14 +1,16 @@
-i'm going to use Arch, btw.
+# youkwhd's arch dotfiles
 
-![vim screenshot](./screenshots/screenshot-vim.png)
+i am using some of [Luke Smith](https://github.com/lukesmithxyz)'s build, like Luke's [st terminal](https://github.com/lukesmithxyz/st) build.
 
-![vscode screenshot](./screenshots/screenshot-vscode.png)
+## some config that you have to manually rewrite:
+i use [python pywal](https://github.com/dylanaraps/pywal) for my color schemes, thus i have tweaked a little bit of dwm and dmenu configuration for it.
 
-i do not own the `.bashrc` file, the origin file should be here: [@moqmar's .bashrc](https://gist.github.com/moqmar/28dde796bb924dd6bfb1eafbe0d265e8) 
+what you need to change is:
 
-> the following repo haven't covered all of the current settings on my desktop yet, i'm currently working on it.
+* [dwm config.h](https://github.com/youkwhd/dotfiles/blob/master/.config/suckless/dwm/config.h#L11)
 
-## why even use i3 window manager?
-i actually likes dwm more, suckless. the reason why i use i3 is that, dwm feels clunky at the moment, don't know why it feels like so, but i recieve a lot of bugs especially with the visual problems. since i use Ubuntu Focal, i3 and awesome wm is the way to go, it's easy to configure.
+* [dmenu config.h](https://github.com/youkwhd/dotfiles/blob/master/.config/suckless/dmenu/config.h#L11)
 
-i will migrate to dwm after hopping into Arch. 
+> make sure that you have [pywal](https://github.com/dylanaraps/pywal) or else you need to configure your own color scheme for dwm and dmenu.  
+
+change the above code code to your own wal cache path /home/\<your username>/.cache/wal/colors-wal-\<dwm or dmenu>.h
