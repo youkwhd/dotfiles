@@ -13,4 +13,6 @@ what you need to change is:
 
 > make sure that you have [pywal](https://github.com/dylanaraps/pywal) or else you need to configure your own color scheme for dwm and dmenu.  
 
-change the above code code to your own wal cache path /home/\<your username>/.cache/wal/colors-wal-\<dwm or dmenu>.h
+change the above code code to your own wal cache path.
+
+`/home/\<your username>/.cache/wal/colors-wal-\<dwm or dmenu>.h`
