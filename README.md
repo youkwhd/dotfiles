@@ -15,4 +15,4 @@ what you need to change is:
 
 change the above code code to your own wal cache path.
 
-`/home/\<your username>/.cache/wal/colors-wal-\<dwm or dmenu>.h`
+`/home/<your username>/.cache/wal/colors-wal-<dwm or dmenu>.h`
