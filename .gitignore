@@ -1,7 +1,4 @@
 patches/
 *.o
 
-dwm
-dmenu
-st
 
