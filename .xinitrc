@@ -6,11 +6,12 @@
 prime-offload
 
 xbindkeys &
+xcompmgr &
 # $HOME/.local/bin/setbg &
 
 xwallpaper --zoom $HOME/pictures/wallpaper_mountain.jpg
-wal -i $HOME/pictures/wallpaper_mountain.jpg -n
-sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
+#wal -i $HOME/pictures/wallpaper_mountain.jpg -n
+#sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
 
 # if you wanna switch GPUs, run this command manually before startx 
 #sudo prime-switch
