@@ -2,6 +2,9 @@
 
 i am using some of [Luke Smith](https://github.com/lukesmithxyz)'s build, like Luke's [st terminal](https://github.com/lukesmithxyz/st) build.
 
+## st transparency
+if your terminal's tranparency doesn't get affected, install a composite manager (e.g compton, xcompmgr) to enable the transparency.
+
 ## some config that you have to manually rewrite:
 i use [python pywal](https://github.com/dylanaraps/pywal) for my color schemes, thus i have tweaked a little bit of dwm and dmenu configuration for it.
 
