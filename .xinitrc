@@ -10,10 +10,12 @@ xcompmgr &
 dwmblocks &
 #$HOME/.local/bin/setbg &
 
+# automatically mount usb
+udiskie &
 
 ## TODO: make a script for automating wallpaper changes
-xwallpaper --zoom $HOME/pictures/wallpaper_starwars2.jpg
-#wal -i $HOME/pictures/wallpaper_starwars2.jpg -n
+xwallpaper --zoom $HOME/pictures/wallpaper_leaf.jpg
+wal -i $HOME/pictures/wallpaper_leaf.jpg -tn
 #sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
 
 ## if you wanna switch GPUs, run this command manually before startx 
@@ -21,4 +23,5 @@ xwallpaper --zoom $HOME/pictures/wallpaper_starwars2.jpg
 
 ## this implementation is just straight bad, it consumes a lot of CPU.
 #while type dwm >/dev/null ; do dwm & continue || break ; done 
+#exec i3
 exec dwm
