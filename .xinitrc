@@ -8,15 +8,17 @@ prime-offload
 xbindkeys &
 xcompmgr &
 dwmblocks &
-#$HOME/.local/bin/setbg &
 
-# automatically mount usb
+## automatically mount usb
 udiskie &
 
 ## TODO: make a script for automating wallpaper changes
 xwallpaper --zoom $HOME/pictures/wallpaper_leaf.jpg
 wal -i $HOME/pictures/wallpaper_leaf.jpg -tn
 sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
+
+## a script to randomize wallpaper and colors 
+#setbg
 
 ## if you wanna switch GPUs, run this command manually before startx 
 #sudo prime-switch
