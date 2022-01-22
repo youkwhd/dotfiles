@@ -6,11 +6,15 @@ set shiftwidth=4
 set smarttab
 set softtabstop=4
 
+" hide the status line
+" :help status-line
+set laststatus=1
+set guicursor=i:block " set the insert mode cursor to be block instead
+
 call plug#begin()
 
 Plug 'preservim/nerdtree' " NerdTree
 Plug 'tpope/vim-commentary' " For Commenting gcc & gc
-Plug 'vim-airline/vim-airline' " Status bar
 Plug 'ap/vim-css-color' " CSS Color Preview
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Auto Completion
 Plug 'ryanoasis/vim-devicons' " Developer Icons
