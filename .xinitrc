@@ -24,4 +24,6 @@ dwmblocks &
 #while type dwm >/dev/null ; do dwm & continue || break ; done 
 
 #exec i3
+#exec awesome
 exec dwm
+
