@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pix/wall/wallpaper_richard-stallman.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1f25",
+        "foreground": "#c3c7d5",
+        "cursor": "#c3c7d5"
+    },
+    "colors": {
+        "color0": "#1c1f25",
+        "color1": "#5E6580",
+        "color2": "#6F758C",
+        "color3": "#7C829C",
+        "color4": "#7E85A1",
+        "color5": "#80869F",
+        "color6": "#8C93B1",
+        "color7": "#c3c7d5",
+        "color8": "#888b95",
+        "color9": "#5E6580",
+        "color10": "#6F758C",
+        "color11": "#7C829C",
+        "color12": "#7E85A1",
+        "color13": "#80869F",
+        "color14": "#8C93B1",
+        "color15": "#c3c7d5"
+    }
+}

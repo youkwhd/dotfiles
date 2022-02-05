@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pix/wall/ameer-basheer-gV6taBJuBTk-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020207",
+        "foreground": "#a7bed8",
+        "cursor": "#a7bed8"
+    },
+    "colors": {
+        "color0": "#020207",
+        "color1": "#5D3658",
+        "color2": "#224773",
+        "color3": "#A0455A",
+        "color4": "#205A99",
+        "color5": "#4F6CA4",
+        "color6": "#B4728C",
+        "color7": "#a7bed8",
+        "color8": "#748597",
+        "color9": "#5D3658",
+        "color10": "#224773",
+        "color11": "#A0455A",
+        "color12": "#205A99",
+        "color13": "#4F6CA4",
+        "color14": "#B4728C",
+        "color15": "#a7bed8"
+    }
+}

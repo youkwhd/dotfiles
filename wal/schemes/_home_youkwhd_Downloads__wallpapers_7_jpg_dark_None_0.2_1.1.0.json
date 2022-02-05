@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/Downloads/_wallpapers/7.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d10",
+        "foreground": "#c1c1c9",
+        "cursor": "#c1c1c9"
+    },
+    "colors": {
+        "color0": "#0c0d10",
+        "color1": "#404360",
+        "color2": "#4a506f",
+        "color3": "#64527b",
+        "color4": "#8c5e64",
+        "color5": "#626a94",
+        "color6": "#946f9f",
+        "color7": "#c1c1c9",
+        "color8": "#87878c",
+        "color9": "#404360",
+        "color10": "#4a506f",
+        "color11": "#64527b",
+        "color12": "#8c5e64",
+        "color13": "#626a94",
+        "color14": "#946f9f",
+        "color15": "#c1c1c9"
+    }
+}

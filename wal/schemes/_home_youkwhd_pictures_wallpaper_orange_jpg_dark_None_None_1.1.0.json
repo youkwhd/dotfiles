@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pictures/wallpaper_orange.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E120C",
+        "foreground": "#f0bfa8",
+        "cursor": "#f0bfa8"
+    },
+    "colors": {
+        "color0": "#0E120C",
+        "color1": "#394563",
+        "color2": "#5F505E",
+        "color3": "#9E512D",
+        "color4": "#D5622A",
+        "color5": "#9B6159",
+        "color6": "#D6704B",
+        "color7": "#f0bfa8",
+        "color8": "#a88575",
+        "color9": "#394563",
+        "color10": "#5F505E",
+        "color11": "#9E512D",
+        "color12": "#D5622A",
+        "color13": "#9B6159",
+        "color14": "#D6704B",
+        "color15": "#f0bfa8"
+    }
+}

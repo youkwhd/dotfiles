@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/youkwhd/_wp/wallpaper-6.jpg"
+let background = "#000001"
+let foreground = "#a6cddf"
+let cursor     = "#a6cddf"
+
+" Colors
+let color0  = "#000001"
+let color1  = "#95474C"
+let color2  = "#186593"
+let color3  = "#557290"
+let color4  = "#2B8CAB"
+let color5  = "#5C95A9"
+let color6  = "#4FAFD1"
+let color7  = "#a6cddf"
+let color8  = "#748f9c"
+let color9  = "#95474C"
+let color10 = "#186593"
+let color11 = "#557290"
+let color12 = "#2B8CAB"
+let color13 = "#5C95A9"
+let color14 = "#4FAFD1"
+let color15 = "#a6cddf"

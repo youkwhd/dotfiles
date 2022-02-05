@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pix/wall/wallpaper_starwars.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160e12",
+        "foreground": "#a9acba",
+        "cursor": "#a9acba"
+    },
+    "colors": {
+        "color0": "#160e12",
+        "color1": "#4F374A",
+        "color2": "#37485B",
+        "color3": "#5D546C",
+        "color4": "#A12F39",
+        "color5": "#CE2B32",
+        "color6": "#FF3236",
+        "color7": "#a9acba",
+        "color8": "#767882",
+        "color9": "#4F374A",
+        "color10": "#37485B",
+        "color11": "#5D546C",
+        "color12": "#A12F39",
+        "color13": "#CE2B32",
+        "color14": "#FF3236",
+        "color15": "#a9acba"
+    }
+}

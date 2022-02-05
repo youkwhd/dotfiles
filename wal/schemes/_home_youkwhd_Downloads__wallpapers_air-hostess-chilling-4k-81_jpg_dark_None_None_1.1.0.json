@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/Downloads/_wallpapers/air-hostess-chilling-4k-81.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101315",
+        "foreground": "#dbd9d4",
+        "cursor": "#dbd9d4"
+    },
+    "colors": {
+        "color0": "#101315",
+        "color1": "#35708D",
+        "color2": "#5A7985",
+        "color3": "#8E7D81",
+        "color4": "#3F8BAE",
+        "color5": "#718992",
+        "color6": "#9DA2A3",
+        "color7": "#dbd9d4",
+        "color8": "#999794",
+        "color9": "#35708D",
+        "color10": "#5A7985",
+        "color11": "#8E7D81",
+        "color12": "#3F8BAE",
+        "color13": "#718992",
+        "color14": "#9DA2A3",
+        "color15": "#dbd9d4"
+    }
+}

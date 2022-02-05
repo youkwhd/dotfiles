@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pictures/wallpaper_snow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09192C",
+        "foreground": "#ccdbef",
+        "cursor": "#ccdbef"
+    },
+    "colors": {
+        "color0": "#09192C",
+        "color1": "#4F7AC5",
+        "color2": "#7288A7",
+        "color3": "#6D92CF",
+        "color4": "#969DAC",
+        "color5": "#A2B0D0",
+        "color6": "#C2BEC7",
+        "color7": "#ccdbef",
+        "color8": "#8e99a7",
+        "color9": "#4F7AC5",
+        "color10": "#7288A7",
+        "color11": "#6D92CF",
+        "color12": "#969DAC",
+        "color13": "#A2B0D0",
+        "color14": "#C2BEC7",
+        "color15": "#ccdbef"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pix/wall/wallpaper_archi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b12",
+        "foreground": "#e0e1e0",
+        "cursor": "#e0e1e0"
+    },
+    "colors": {
+        "color0": "#0a0b12",
+        "color1": "#376289",
+        "color2": "#4D759B",
+        "color3": "#6084A6",
+        "color4": "#77A1C6",
+        "color5": "#9DA2A6",
+        "color6": "#B8BEC4",
+        "color7": "#e0e1e0",
+        "color8": "#9c9d9c",
+        "color9": "#376289",
+        "color10": "#4D759B",
+        "color11": "#6084A6",
+        "color12": "#77A1C6",
+        "color13": "#9DA2A6",
+        "color14": "#B8BEC4",
+        "color15": "#e0e1e0"
+    }
+}

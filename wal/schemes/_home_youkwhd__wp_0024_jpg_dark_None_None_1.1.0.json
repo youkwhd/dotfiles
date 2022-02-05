@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/_wp/0024.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090b05",
+        "foreground": "#e2deca",
+        "cursor": "#e2deca"
+    },
+    "colors": {
+        "color0": "#090b05",
+        "color1": "#817E53",
+        "color2": "#9F9A5D",
+        "color3": "#BEBA4F",
+        "color4": "#607587",
+        "color5": "#748791",
+        "color6": "#9EA496",
+        "color7": "#e2deca",
+        "color8": "#9e9b8d",
+        "color9": "#817E53",
+        "color10": "#9F9A5D",
+        "color11": "#BEBA4F",
+        "color12": "#607587",
+        "color13": "#748791",
+        "color14": "#9EA496",
+        "color15": "#e2deca"
+    }
+}

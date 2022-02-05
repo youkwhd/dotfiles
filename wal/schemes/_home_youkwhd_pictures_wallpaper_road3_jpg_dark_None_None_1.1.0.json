@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pictures/wallpaper_road3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0d09",
+        "foreground": "#bec0ad",
+        "cursor": "#bec0ad"
+    },
+    "colors": {
+        "color0": "#0a0d09",
+        "color1": "#485537",
+        "color2": "#585C3A",
+        "color3": "#3F5A40",
+        "color4": "#556847",
+        "color5": "#636E4D",
+        "color6": "#758660",
+        "color7": "#bec0ad",
+        "color8": "#858679",
+        "color9": "#485537",
+        "color10": "#585C3A",
+        "color11": "#3F5A40",
+        "color12": "#556847",
+        "color13": "#636E4D",
+        "color14": "#758660",
+        "color15": "#bec0ad"
+    }
+}

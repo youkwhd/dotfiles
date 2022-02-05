@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/youkwhd/pictures/wallpaper_forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#05100C",
+        "foreground": "#e5e8e8",
+        "cursor": "#e5e8e8"
+    },
+    "colors": {
+        "color0": "#05100C",
+        "color1": "#83847C",
+        "color2": "#92938E",
+        "color3": "#A2A19D",
+        "color4": "#B5B3B1",
+        "color5": "#C1BFBF",
+        "color6": "#D0D3D3",
+        "color7": "#e5e8e8",
+        "color8": "#a0a2a2",
+        "color9": "#83847C",
+        "color10": "#92938E",
+        "color11": "#A2A19D",
+        "color12": "#B5B3B1",
+        "color13": "#C1BFBF",
+        "color14": "#D0D3D3",
+        "color15": "#e5e8e8"
+    }
+}
