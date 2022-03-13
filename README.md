@@ -22,3 +22,6 @@ what you need to change is:
 change the above code code to your own wal cache path.
 
 `/home/<your username>/.cache/wal/colors-wal-<dwm or dmenu>.h`
+
+## why is my build of dwm and st is here?
+soon all of suckless builds will be moved from this repo.
