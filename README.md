@@ -2,8 +2,8 @@
 
 i am using some of [Luke Smith](https://github.com/lukesmithxyz)'s build, like Luke's [st terminal](https://github.com/lukesmithxyz/st) build.
 
+![dwm gif](./videos/dwm.gif)
 ![dwm screenshot](./screenshots/wm__screenshot-04.png)
-![dwm screenshot](./screenshots/wm__screenshot-07.png)
 
 ## st transparency
 if your terminal's tranparency doesn't get affected, install a composite manager (e.g compton, xcompmgr) to enable the transparency.
