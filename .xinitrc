@@ -1,9 +1,6 @@
 ## starts the prime-offload which will configure GPU switches # you have to manually run `sudo prime-switch` after quitting
 ## dwm respectively.
 
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
-
 ## NOTE: you have to break the dwm while loop and execute startx
 prime-offload
 
