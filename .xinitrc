@@ -1,14 +1,17 @@
 ## starts the prime-offload which will configure GPU switches # you have to manually run `sudo prime-switch` after quitting
 ## dwm respectively.
 
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
 ## NOTE: you have to break the dwm while loop and execute startx
 prime-offload
 
 ## TODO: make a script for automating wallpaper changes
-# xwallpaper --zoom $HOME/Downloads/_wallpapers/7.jpg
+xwallpaper --zoom $HOME/Downloads/_wallpapers/7.jpg
 # xwinwrap -ov -ni -g 1366x768 -- mpv --fullscreen --vo=vaapi --hwdec=vaapi --no-stop-screensaver --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings $HOME/Downloads/live_wal/M4-SOPMOD-II.mp4 &
 # xwinwrap -ov -ni -g 1366x768 -- mpv --fullscreen --vo=vaapi --hwdec=vaapi --no-stop-screensaver --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings $HOME/live_wallpapers/mylivewallpapers.com-Demon-Slayer-Kokushibou.mp4 &
-xwinwrap -ov -ni -g 1366x768 -- mpv --fullscreen --vo=vaapi --hwdec=vaapi --no-stop-screensaver --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings $HOME/Downloads/__live_wal/Kimetsu-no-Yaiba-Cybust-Shinobu-Kocho-PC-1080.mp4 &
+# xwinwrap -ov -ni -g 1366x768 -- mpv --fullscreen --vo=vaapi --hwdec=vaapi --no-stop-screensaver --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings $HOME/Downloads/__live_wal/Kimetsu-no-Yaiba-Cybust-Shinobu-Kocho-PC-1080.mp4 &
 # wal -i $HOME/pictures/wallpaper_canyon.jpg --saturate 0.4 -tn
 wal -i $HOME/pictures/wallpaper_canyon.jpg --saturate 0.2 -tn
 sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
@@ -17,10 +20,10 @@ sed -i 'N;$!P;D' $HOME/.cache/wal/colors-wal-dwm.h
 # udiskie &
 
 xbindkeys &
-xcompmgr &
+# picom --no-fading-openclose --backend glx --vsync &
+picom --no-fading-openclose --experimental-backends --vsync &
 dwmblocks &
-# bucklespring
-buckle &
+# buckle &
 
 ## if you wanna switch GPUs, run this command manually before startx 
 #sudo prime-switch
