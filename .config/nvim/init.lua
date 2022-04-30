@@ -149,7 +149,7 @@ require'lspconfig'.gopls.setup{}
 require'lspconfig'.gdscript.setup{}
 
 local capability = vim.lsp.protocol.make_client_capabilities()
-capability .textDocument.completion.completionItem.snippetSupport = true
+capability.textDocument.completion.completionItem.snippetSupport = true
 require'lspconfig'.html.setup {
   capabilities = capability,
 }
