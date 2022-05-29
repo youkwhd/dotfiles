@@ -3,8 +3,8 @@
 prime-offload
 
 ## TODO: make a script for automating wallpaper changes
-xwallpaper --zoom $HOME/Downloads/_wallpapers/7.jpg
 # xwinwrap -ov -ni -g 1366x768 -- mpv --fullscreen --vo=vaapi --hwdec=vaapi --no-stop-screensaver --loop-file --no-audio --no-osc --no-osd-bar -wid WID --no-input-default-bindings $HOME/Downloads/live_wal/M4-SOPMOD-II.mp4 &
+xwallpaper --zoom $HOME/.config/_wallpaper.png
 
 # wal -i $HOME/pictures/wallpaper_canyon.jpg --saturate 0.4 -tn
 # wal -i $HOME/pictures/wallpaper_canyon.jpg --saturate 0.2 -tn
