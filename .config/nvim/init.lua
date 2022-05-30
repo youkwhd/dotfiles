@@ -5,7 +5,7 @@ require('keybindings')
 -- starts lualine
 require('lualine').setup {
     options = {
-	theme = 'powerline_dark'
+		theme = 'powerline_dark'
     }
 }
 
@@ -121,8 +121,11 @@ local servers = {
     'clangd', -- c, c++
     -- 'omnisharp', -- C#
     -- 'csharp_ls', -- C#
+	-- 'perlls', -- perl
+	'perlpls', -- perl
     'gopls', -- go
     'html', -- html
+    'cssls', -- css
     'gdscript', -- gdscript
     'sumneko_lua', -- lua
     'tsserver', -- typescript, javascript
@@ -139,10 +142,13 @@ for _, lsp in pairs(servers) do
     }
 end
 
+
 require'lspconfig'.tsserver.setup {
     root_dir = function() return vim.loop.cwd() end
 }
 
+-- require'lspconfig'.perlls.setup{}
+require'lspconfig'.perlpls.setup{}
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.gopls.setup{}
@@ -150,7 +156,12 @@ require'lspconfig'.gdscript.setup{}
 
 local capability = vim.lsp.protocol.make_client_capabilities()
 capability.textDocument.completion.completionItem.snippetSupport = true
+
 require'lspconfig'.html.setup {
+  capabilities = capability,
+}
+
+require'lspconfig'.cssls.setup {
   capabilities = capability,
 }
 

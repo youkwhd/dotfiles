@@ -1,8 +1,8 @@
 local keymap = vim.api.nvim_set_keymap
-
 local opts = { noremap = true }
 
 keymap('n', '<C-f>', ':NvimTreeToggle<CR>', opts)
+
 keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
 keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
 keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
