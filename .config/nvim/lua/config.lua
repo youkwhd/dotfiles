@@ -3,7 +3,6 @@ local ft = require('Comment.ft')
 ft.set('c', '/*%s*/')
 
 local set = vim.opt
-local tab_spaces = 4
 
 set.encoding = 'UTF-8'
 
@@ -15,10 +14,10 @@ set.wrap = false
 set.number = true
 set.relativenumber = true
 
-set.tabstop = tab_spaces
-set.shiftwidth = tab_spaces
-set.softtabstop = tab_spaces
--- set.expandtab = true
+set.tabstop = 4
+set.shiftwidth = 4
+set.softtabstop = 4
+set.expandtab = true
 set.smartindent = true
 set.smarttab = true
 set.autoindent = true
